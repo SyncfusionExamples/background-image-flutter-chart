@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
-import 'package:syncfusion_flutter_core/core.dart';
 
 void main() {
-  // Register your license here
-  SyncfusionLicense.registerLicense(null);
   return runApp(BackgroundImage());
 }
 
@@ -22,7 +19,7 @@ class BackgroundImage extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key}) : super(key: key);
+  MyHomePage({Key? key}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
